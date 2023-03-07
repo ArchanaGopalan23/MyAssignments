@@ -26,6 +26,12 @@ ChromeDriver driver = new ChromeDriver();
 		Select drop1 =new Select(automationTool);
 		
 		drop1.selectByVisibleText("Selenium");
+		
+		
+		//Find element Choose ypur preferred country and click the element
+	      driver.findElement(By.className("ui-selectonemenu-trigger")).click();
+		  
+		  driver.findElement(By.id("j_idt87:country_3")).click();
 
 		
 
